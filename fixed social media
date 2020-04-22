@@ -1,0 +1,35 @@
+right side social media link
+<style>
+#sidebar{
+    position: fixed;
+    right: 0px;
+    z-index: 99999; 
+    margin:130px 0px 0px 0px;
+}
+#sidebar a{
+    position: relative;
+}
+#sidebar li{
+    background-color:#409652;
+    padding:10px 55px 10px 15px;
+    border-bottom:1px solid #fff;
+    transition: all 0.25s ease-in-out;
+    transform:translate(40px);
+}
+#sidebar li:nth-child(1):hover{
+    transform:translatex(0px);
+}
+#sidebar li:nth-child(2):hover{
+    transform:translatex(0px);
+}
+</style>
+<!-- right side social media  -->
+<ul id="sidebar">
+<li ><a href="#0">
+        <i class="fab fa-whatsapp" style="color:#fff"></i></a>
+</li>
+    <li><a href="#0">
+        <i class="fab fa-facebook-f li2" style="color:#fff"></i></a>
+    </li>
+</ul>
+<!-- right side social media  -->
